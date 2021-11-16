@@ -5,21 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1748b84c-f9e6-4efd-acb7-e3f3f55f2890" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service_base/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/atguigu/servicebase/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_utils/src/main/java/com/atguigu/commonutils/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_utils/src/main/java/com/atguigu/commonutils/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/atguigu/servicebase/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/vo/TeacherQueryVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service_edu/service_edu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/service_edu.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/EduApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/EduApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/config/EduConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/config/EduConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/controller/EduTeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/controller/EduTeacherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/EduTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/EduTeacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +30,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1xium0Y1e02App3FYjxTgPwIoCU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -55,7 +65,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TongFunCode/tongfuncloud-cms" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -74,13 +84,15 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.EduApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,7 +163,8 @@
       <workItem from="1636978374909" duration="3347000" />
       <workItem from="1636981922523" duration="663000" />
       <workItem from="1636982609323" duration="1477000" />
-      <workItem from="1636984788869" duration="837000" />
+      <workItem from="1636984788869" duration="1181000" />
+      <workItem from="1637057897175" duration="4946000" />
     </task>
     <task id="LOCAL-00001" summary="EduTeacher代码的框架">
       <created>1631194529007</created>
@@ -167,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635260536884</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="学习到P25的代码">
+      <created>1636985854730</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636985854730</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
