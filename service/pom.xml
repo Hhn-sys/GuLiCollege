@@ -18,11 +18,12 @@
 
     <dependencies>
 <!--        用来统一返回结果的-->
-        <dependency>
-            <groupId>com.atguigu</groupId>
-            <artifactId>common_utils</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+<!--        由于service_base里引入了common_utils，因此此处只需引入service_base-->
+<!--        <dependency>-->
+<!--            <groupId>com.atguigu</groupId>-->
+<!--            <artifactId>common_utils</artifactId>-->
+<!--            <version>0.0.1-SNAPSHOT</version>-->
+<!--        </dependency>-->
 <!--        用来使用Swagger的-->
         <dependency>
             <groupId>com.atguigu</groupId>
