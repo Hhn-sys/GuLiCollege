@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1748b84c-f9e6-4efd-acb7-e3f3f55f2890" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/atguigu/servicebase/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/controller/EduTeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/controller/EduTeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/src/main/java/com/atguigu/servicebase/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/atguigu/servicebase/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,19 +73,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.EduApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CodeGenerator.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service_edu" />
       <extension name="coverage">
@@ -153,7 +140,7 @@
       <workItem from="1636981922523" duration="663000" />
       <workItem from="1636982609323" duration="1477000" />
       <workItem from="1636984788869" duration="1181000" />
-      <workItem from="1637057897175" duration="6376000" />
+      <workItem from="1637057897175" duration="10253000" />
     </task>
     <task id="LOCAL-00001" summary="EduTeacher代码的框架">
       <created>1631194529007</created>
@@ -183,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637064526604</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="第二天完成，即P33完成">
+      <created>1637066035410</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637066035410</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +187,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="EduTeacher代码的框架" />
     <MESSAGE value="学习到P25的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习到P25的代码" />
+    <MESSAGE value="第二天完成，即P33完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二天完成，即P33完成" />
   </component>
 </project>
